@@ -1,0 +1,226 @@
+[
+  {
+    "enabled": true,
+    "from": "^https://www.sciencedirect.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0043135426005385",
+    "to": "https://www-sciencedirect-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://linkinghub.elsevier.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://linkinghub.elsevier.com/retrieve/pii/S0043135426005385",
+    "to": "https://linkinghub-elsevier-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://onlinelibrary.wiley.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://onlinelibrary.wiley.com/doi/10.1029/2020WR028371",
+    "to": "https://onlinelibrary-wiley-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://agupubs.onlinelibrary.wiley.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020WR028371",
+    "to": "https://agupubs-onlinelibrary-wiley-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://ascelibrary.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://ascelibrary.org/doi/10.1061/JHEND8.HYENG-13123",
+    "to": "https://ascelibrary-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://iwaponline.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://iwaponline.com/jh/article/24/1/1/85601",
+    "to": "https://iwaponline-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://pubs.acs.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://pubs.acs.org/doi/10.1021/acs.est.2c00000",
+    "to": "https://pubs-acs-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://pubs.rsc.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://pubs.rsc.org/en/content/articlelanding/2024/ew/d4ew00001a",
+    "to": "https://pubs-rsc-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://link.springer.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://link.springer.com/article/10.1007/s11269-024-03800-4",
+    "to": "https://link-springer-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.springer.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.springer.com/journal/11269",
+    "to": "https://www-springer-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.nature.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.nature.com/articles/s41586-024-00000-0",
+    "to": "https://www-nature-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.science.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.science.org/doi/10.1126/science.abc1234",
+    "to": "https://www-science-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.pnas.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.pnas.org/doi/10.1073/pnas.2400000121",
+    "to": "https://www-pnas-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.tandfonline.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.tandfonline.com/doi/full/10.1080/1573062X.2024.0000000",
+    "to": "https://www-tandfonline-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.mdpi.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.mdpi.com/2073-4441/16/1/1",
+    "to": "https://www-mdpi-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://hess.copernicus.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://hess.copernicus.org/articles/28/1/2024/",
+    "to": "https://hess-copernicus-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://gmd.copernicus.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://gmd.copernicus.org/articles/17/1/2024/",
+    "to": "https://gmd-copernicus-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://(\\w+)\\.copernicus\\.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://nhess.copernicus.org/articles/24/1/2024/",
+    "to": "https://$1-copernicus-org.ezproxy.cityu.edu.hk/$2"
+  },
+  {
+    "enabled": true,
+    "from": "^https://ieeexplore.ieee.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://ieeexplore.ieee.org/document/10000000",
+    "to": "https://ieeexplore-ieee-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://dl.acm.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://dl.acm.org/doi/10.1145/3000000.3000000",
+    "to": "https://dl-acm-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://epubs.siam.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://epubs.siam.org/doi/10.1137/24M1234567",
+    "to": "https://epubs-siam-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://academic.oup.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://academic.oup.com/jhydro/article/1/1/1/0000000",
+    "to": "https://academic-oup-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.cambridge.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics",
+    "to": "https://www-cambridge-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://journals.sagepub.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://journals.sagepub.com/doi/10.1177/00000000241000000",
+    "to": "https://journals-sagepub-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.jstor.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.jstor.org/stable/10.2307/00000000",
+    "to": "https://www-jstor-org.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.scopus.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-00000000000",
+    "to": "https://www-scopus-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.webofscience.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000000000000001",
+    "to": "https://www-webofscience-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.engineeringvillage.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.engineeringvillage.com/search/quick.url",
+    "to": "https://www-engineeringvillage-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.proquest.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.proquest.com/docview/0000000000",
+    "to": "https://www-proquest-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://search.ebscohost.com/(.*)",
+    "mode": "regex",
+    "testUrl": "https://search.ebscohost.com/login.aspx",
+    "to": "https://search-ebscohost-com.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://www.osti.gov/(.*)",
+    "mode": "regex",
+    "testUrl": "https://www.osti.gov/biblio/0000000",
+    "to": "https://www-osti-gov.ezproxy.cityu.edu.hk/$1"
+  },
+  {
+    "enabled": true,
+    "from": "^https://asmedigitalcollection.asme.org/(.*)",
+    "mode": "regex",
+    "testUrl": "https://asmedigitalcollection.asme.org/fluidsengineering/article/146/1/011001",
+    "to": "https://asmedigitalcollection-asme-org.ezproxy.cityu.edu.hk/$1"
+  }
+]
