@@ -1,6 +1,13 @@
 [
   {
     "enabled": true,
+    "from": "^https://submit-elsevier-com\\.ezproxy\\.cityu\\.edu\\.hk/(.*)",
+    "mode": "regex",
+    "testUrl": "https://submit-elsevier-com.ezproxy.cityu.edu.hk/WR",
+    "to": "https://submit.elsevier.com/$1"
+  },
+  {
+    "enabled": true,
     "from": "^https://www.sciencedirect.com/(.*)",
     "mode": "regex",
     "testUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0043135426005385",
